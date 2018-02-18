@@ -10,4 +10,8 @@ RUN apk update && \
     	apk del git && \
 	apk add --update darkhttpd
 
+ADD root/ /
+
+RUN chmod -v +x /etc/services.d/*/run /etc/cont-init.d/*
+
 EXPOSE 80
