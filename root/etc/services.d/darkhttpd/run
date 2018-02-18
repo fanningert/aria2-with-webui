@@ -1,4 +1,0 @@
-#!/usr/bin/with-contenv bash
-
-export HOME="~app"
-exec s6-setuidgid app "/config/start_darkhttpd.sh"
