@@ -1,4 +1,4 @@
-FROM fanningert:aria2-daemon
+FROM fanningert/aria2-daemon
 
 MAINTAINER fanningert <thomas@fanninger.at>
 
